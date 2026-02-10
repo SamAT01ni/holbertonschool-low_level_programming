@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - seeing the relation between the pevious number and a new one
+/**
+ * main - entry point
  *
  * Return: 0
  */
