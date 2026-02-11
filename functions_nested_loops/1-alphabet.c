@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main - who knows man
+ * print_alphabet - abc and all that
  *
  * Return: void
  */
