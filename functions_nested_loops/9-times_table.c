@@ -13,6 +13,7 @@ void times_table(void)
 	int sum;
 	int first;
 	int sec;
+
 	while (n1 <= 9)
 	{
 		n2 = 0;
@@ -37,8 +38,6 @@ void times_table(void)
 				}
 				else
 				{
-					_putchar(',');
-					_putchar(' ');
 					_putchar('0' + first);
 					_putchar('0' + sec);
 				}
