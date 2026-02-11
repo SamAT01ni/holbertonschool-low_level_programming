@@ -13,11 +13,9 @@ void times_table(void)
 	int sum;
 	int first;
 	int sec;
-
 	while (n1 <= 9)
 	{
 		n2 = 0;
-
 		while (n2 <= 9)
 		{
 			sum = n1 * n2;
@@ -28,25 +26,25 @@ void times_table(void)
 			{
 				_putchar('0' + sum);
 			}
-			else if (sum <= 9)
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar('0' + sum);
-			}
 			else
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar('0' + first);
-				_putchar('0' + sec);
+				if (sum <= 9)
+				{
+					_putchar(' ');
+					_putchar('0' + sum);
+				}
+				else
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar('0' + first);
+					_putchar('0' + sec);
+				}
 			}
-
 			n2++;
-
 		}
-
 		_putchar('\n');
 		n1++;
 	}
