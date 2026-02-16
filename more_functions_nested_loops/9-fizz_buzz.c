@@ -28,7 +28,15 @@ int main(void)
 		}
 		else if (fiz != 0 && buz == 0)
 		{
-			printf("Buzz ");
+			if (i == 100)
+			{
+				printf("Buzz");
+				printf("\n");
+			}
+			else
+			{
+				printf("Buzz ");
+			}
 		}
 		else
 		{
@@ -36,6 +44,5 @@ int main(void)
 		}
 		i = i + 1;
 	}
-	printf("\n");
 	return (0);
 }
