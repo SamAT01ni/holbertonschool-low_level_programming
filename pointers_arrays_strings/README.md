@@ -1,1 +1,1 @@
-A pointer, an array and a string walk into the bar. The pointer is able to tell us the address, the array logs each pint and the strings gets legless and is kicked out i didnt come up with a punchline
+Pointers arrays and strings take 2, lets do some learning guys dont forget to smash that like button and as always subscribe and hit that bell
