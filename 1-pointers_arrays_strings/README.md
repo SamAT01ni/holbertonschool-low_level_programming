@@ -1,0 +1,1 @@
+A pointer, an array and a string walk into the bar. The pointer is able to tell us the address, the array logs each pint and the strings gets legless and is kicked out i didnt come up with a punchline
