@@ -11,7 +11,7 @@
 #include <unistd.h>  /* read, write, close */
 #include <stdlib.h>  /* exit */
 #include <string.h>  /* strlen */
-#include <sys/stat.h>   // permission macros
+#include <sys/stat.h> 
 
 ssize_t read_textfile(const char *filename, size_t letters);
 
